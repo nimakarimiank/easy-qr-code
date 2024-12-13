@@ -3,7 +3,7 @@
 client_id = "4665f16b7a28d8cf71da31ae4c342edd"
 name = "easy-qr-code"
 handle = "easy-qr-code"
-application_url = "https://public-reservations-fed-expenditures.trycloudflare.com"
+application_url = "https://halifax-starring-universe-morrison.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://public-reservations-fed-expenditures.trycloudflare.com/auth/callback",
-  "https://public-reservations-fed-expenditures.trycloudflare.com/auth/shopify/callback",
-  "https://public-reservations-fed-expenditures.trycloudflare.com/api/auth/callback"
+  "https://halifax-starring-universe-morrison.trycloudflare.com/auth/callback",
+  "https://halifax-starring-universe-morrison.trycloudflare.com/auth/shopify/callback",
+  "https://halifax-starring-universe-morrison.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
