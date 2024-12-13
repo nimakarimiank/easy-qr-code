@@ -3,10 +3,10 @@ import invariant from "tiny-invariant";
 import db from "../db.server";
 export async function getQRCode(id, graphql) {
   const qrCode = await db.qRCode.findFirst({ where: { id } });
-  if (!qrcode) {
+  if (!qrCode) {
     return null;
   }
-  return supplementQRCode(qrcode, graphql);
+  return supplementQRCode(qrCode, graphql);
 }
 export async function getQRCodes(shop, graphql) {
   const qrCodes = await db.qRCode.findMany({
