@@ -3,7 +3,7 @@
 client_id = "4665f16b7a28d8cf71da31ae4c342edd"
 name = "easy-qr-code"
 handle = "easy-qr-code"
-application_url = "https://halifax-starring-universe-morrison.trycloudflare.com"
+application_url = "https://broadband-mitsubishi-follows-pleasure.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://halifax-starring-universe-morrison.trycloudflare.com/auth/callback",
-  "https://halifax-starring-universe-morrison.trycloudflare.com/auth/shopify/callback",
-  "https://halifax-starring-universe-morrison.trycloudflare.com/api/auth/callback"
+  "https://broadband-mitsubishi-follows-pleasure.trycloudflare.com/auth/callback",
+  "https://broadband-mitsubishi-follows-pleasure.trycloudflare.com/auth/shopify/callback",
+  "https://broadband-mitsubishi-follows-pleasure.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
